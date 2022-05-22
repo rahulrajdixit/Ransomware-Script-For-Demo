@@ -41,7 +41,7 @@ PLEASE NOTE: The script will ask for a password before decrypting the file. The 
 ## **Example**
 Here, we can see all the files from the zip file.
 
-![image](https://user-images.githubusercontent.com/61109976/169681749-db8c46e6-bdb1-428c-9fad-0ff7fc226ee4.png)
+![image](https://user-images.githubusercontent.com/61109976/169683167-0904c437-2c6a-4900-92d0-ce27f416b457.png)
 
 
 And here, we can see the files with their content without encryption.
