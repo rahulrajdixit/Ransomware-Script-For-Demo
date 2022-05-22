@@ -19,16 +19,47 @@ A separate file named "key_file.key" is generated during the encryption process,
 -----------------------------------------------------
 
 ## **How to use it?**
-1. Download the zip file, and extract it. The scripts should be in `Ransomware-Script` folder.
-2. Add aditional files you would like to encrypt into the `Ransomware-Script` folder.
-3. Run encryption for all the files within the folder (except `encrypt.py`, `decrypt.py` and `key_file.key` (which will be generated during the encryption process). Use the following command in the present-working-directory:-
+1. Download the zip file, and extract it. The scripts should be in `Ransomware-Script-main` folder.
+2. (optional) Add aditional files which you would like to encrypt into the `Ransomware-Script-main` folder.
+3. Try to open `Test_Pdf_file.py` and `test_file.txt` to see if data is present.
+4. Encrypt all the files within the folder (except `encrypt.py`, `decrypt.py` and `key_file.key` (which will be generated during the encryption process)). Use the following command in the present-working-directory:-
 
 ```python
-python3 encrypt.py
+python encrypt.py
 ```
-4. Try to open the encrypted files and view their content.
+4. Try to open the encrypted files `Test_Pdf_file.py` and `test_file.txt` and view their content.
 5. Decrypt the files using using the command:-
 ```python
-python3 decrypt.py
+python decrypt.py
 ```
+PLEASE NOTE: The script will ask for a password before decrypting the file. The password is: `ransome`. (Check the below given example)
+
 6. Try to view the files again. This time, they should be decrypted back.
+
+## **Example**
+Here, we can see all the files from the zip file.
+
+![image](https://user-images.githubusercontent.com/61109976/169681749-db8c46e6-bdb1-428c-9fad-0ff7fc226ee4.png)
+
+
+And here, we can see the files with their content without encryption.'
+
+![image](https://user-images.githubusercontent.com/61109976/169681808-e36fb14b-e599-4b90-89b0-b5b4766abab3.png)
+
+
+Now, we encrypt the files.
+
+![image](https://user-images.githubusercontent.com/61109976/169681841-af276f5d-7f2e-4a5d-b53a-9c18786074c2.png)
+
+
+Here, we can see, the data is encrypted, hence the following output.
+
+![image](https://user-images.githubusercontent.com/61109976/169681864-0b046c7b-577d-4209-9e16-9b9639d3163b.png)
+
+
+Now, we decrypt the files.
+
+![image](https://user-images.githubusercontent.com/61109976/169681892-be6b20ab-35bb-44f9-9d29-869a3040352e.png)
+
+And here, we have recovered the files back after the decryption process.
+![image](https://user-images.githubusercontent.com/61109976/169681922-a0278f17-2bc8-460a-904c-10ba0dd2f8cc.png)
