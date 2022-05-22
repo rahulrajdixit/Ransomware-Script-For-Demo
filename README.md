@@ -23,13 +23,13 @@ A password is required during the decryption process, which is asked by the scri
 ## **How to use it?**
 1. Download the zip file, and extract it. The scripts should be in `Ransomware-Script-main` folder.
 2. (optional) Add aditional files which you would like to encrypt into the `Ransomware-Script-main` folder.
-3. Try to open `Test_Pdf_file.py` and `test_file.txt` to see if data is present.
+3. Try to open `Test_PDF_File.py` and `test_file.txt` to see if data is present.
 4. Encrypt all the files within the folder (except `encrypt.py`, `decrypt.py` and `key_file.key` (which will be generated during the encryption process)). Use the following command in the present-working-directory:-
 
 ```python
 python encrypt.py
 ```
-4. Try to open the encrypted files `Test_Pdf_file.py` and `test_file.txt` and view their content.
+4. Try to open the encrypted files `Test_PDF_File.py` and `test_file.txt` and view their content.
 5. Decrypt the files using using the command:-
 ```python
 python decrypt.py
