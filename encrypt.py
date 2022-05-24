@@ -36,7 +36,7 @@ def generate_key_file():
 # Encrypt
 
 def encryption_process(files, key):
-	print("Started encrypting...")
+	print("Encryption started...")
 
 	for file in files:
 		with open(file, "rb") as f:
