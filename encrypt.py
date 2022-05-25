@@ -29,7 +29,7 @@ def generate_key_file():
 
 	with open("key_file.key", "wb") as f:
 		f.write(key)
-	print("...Key-file generated")
+	print("...key-file generated")
 	return key
 
 
