@@ -45,7 +45,7 @@ def encryption_process(files, key):
 		with open(file, "wb") as f:
 			f.write(encrypted_content)
 
-	print("...Encrypting complete")
+	print("...encryption complete")
 
 
 # Main function calls
