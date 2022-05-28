@@ -33,7 +33,7 @@ def get_key():
 # Decrypt
 
 def decryption_process(files, key):
-    password = input("Enter the password to decrypt the file:")
+    password = input("Enter the password to decrypt the files:")
     if password == "ransome":
         print("Decryption started...")
         for file in files:
