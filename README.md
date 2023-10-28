@@ -3,7 +3,7 @@
 ## **Please Note**
 - Please consider runnng these scripts only if you can clearly understand the working of the script . It is adviced to go through the code before running it. If you would like to tinker with these scripts, then please consider running these scripts in a save environment (Example: in a virtual machine).
 - Please note, these are python scripts just to demonstrate the working process of a simple ransomware. Actual ransomwares have a much more complex working process, are not as simple as these scripts.
-- The tool can only encrypt and decript files (and not folders) within the same directory of the python scripts.
+- The tool can only encrypt and decrypt files (and not folders) within the same directory of the python scripts.
 - This project was developed out of curiosity with the help of some references. Please do not misuse the script and use it only for educational/demonstration purpose.
 
 ## **Introduction**
