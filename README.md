@@ -9,7 +9,7 @@
 > These are Python scripts just to demonstrate the working process of a simple ransomware. Actual ransomware has a much more complex working process and are not as simple as these scripts.
 
 > [!NOTE]
-> The tool can only encrypt and decrypt files (and not folders) within the same directory of the python scripts.
+> The tool can only encrypt and decrypt files (and not folders) within the same directory of the Python scripts.
 > This project was developed out of curiosity with the help of some references. Please do not misuse the script and use it only for educational/demonstration purpose.
 
 ## **Introduction**
