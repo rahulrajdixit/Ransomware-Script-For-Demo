@@ -10,7 +10,7 @@
 
 > [!NOTE]
 > The tool can only encrypt and decrypt files (and not folders) within the same directory of the Python scripts.
-> This project was developed out of curiosity with the help of some references. Please do not misuse the script and use it only for educational/demonstration purpose.
+> This project was developed out of curiosity with the help of some references. Please do not misuse the script and use it only for educational/demonstration purposes.
 
 ## **Introduction**
 These python scripts encrypt and decrypt the files within the same directory using Fernet Encryption.
