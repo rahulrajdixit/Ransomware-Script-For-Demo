@@ -6,7 +6,7 @@
 > Please consider running these scripts only if you can clearly understand the workings of the script. It is advised to go through the code before running it. If you like to tinker with these scripts, then please consider running them in a safe environment (For example: in a virtual machine).
 
 > [!IMPORTANT]
-> These are Python scripts just to demonstrate the working process of a simple ransomware. Actual ransomware has a much more complex working process and are not as simple as these scripts.
+> These are Python scripts just to demonstrate the working process of a simple ransomware. Actual ransomware has a much more complex working process and is not as simple as these scripts.
 
 > [!NOTE]
 > The tool can only encrypt and decrypt files (and not folders) within the same directory of the Python scripts.
