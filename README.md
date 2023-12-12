@@ -13,7 +13,7 @@
 > This project was developed out of curiosity with the help of some references. Please do not misuse the script and use it only for educational/demonstration purposes.
 
 ## **Introduction**
-These python scripts encrypt and decrypt the files within the same directory using Fernet Encryption.
+These Python scripts encrypt and decrypt the files within the same directory using Fernet Encryption.
 
 The folder consists of 2 scripts:
 - `encrypt.py`: For encrypting all the files using Fernet Encryption
