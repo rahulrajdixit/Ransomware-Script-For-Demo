@@ -19,7 +19,7 @@ The folder consists of 2 scripts:
 - `encrypt.py`: For encrypting all the files using Fernet Encryption
 - `decrypt.py`: For decrypting all the files.
 
-A separate file named "key_file.key" is generated during the encryption process, and the key present within this file is used during the decryption process. Please note that the generated key is unique every time "encrypt.py" secript is run, and the key within "key_file.key" is replaced every time.
+A separate file named "key_file.key" is generated during the encryption process, and the key present within this file is used during the decryption process. Please note that the generated key is unique every time "encrypt.py" script is run, and the key within "key_file.key" is replaced every time.
 
 A password is required during the decryption process, which is asked by the script. The current password to decrypt the files is `ransome` (Check line 37 of `decrypt.py` file for a better understanding).
 
