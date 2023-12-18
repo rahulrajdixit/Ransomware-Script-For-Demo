@@ -59,7 +59,7 @@ Now, we encrypt the files.
 ![image](https://user-images.githubusercontent.com/61109976/169681841-af276f5d-7f2e-4a5d-b53a-9c18786074c2.png)
 
 
-Here, we can see, the data is encrypted, hence the following output.
+Here, we can see, that the data is encrypted, hence the following output.
 
 ![image](https://user-images.githubusercontent.com/61109976/169681864-0b046c7b-577d-4209-9e16-9b9639d3163b.png)
 
